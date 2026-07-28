@@ -98,3 +98,19 @@ The recommendation logic worked correctly and selected an appropriate shipping b
 ## Final Result
 
 All planned test cases were executed successfully. The application behaved as expected and no functional issues were observed during testing. The box recommendation feature, Django Admin operations, and user interface were verified successfully.
+## Terminal Output
+
+```text
+(venv) PS C:\Users\pourn\OneDrive\Desktop\Project Folder\box_selector> python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+Django version 6.0.7
+Starting development server at http://127.0.0.1:8000/
+
+[27/Jul/2026] "GET / HTTP/1.1" 200
+[27/Jul/2026] "GET /recommend/1/ HTTP/1.1" 200
+[27/Jul/2026] "GET /admin/ HTTP/1.1" 200
+```
